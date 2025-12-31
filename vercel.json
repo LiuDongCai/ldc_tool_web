@@ -4,18 +4,8 @@
     "builds": [],
     "routes": [
         {
-            "src": "/.*",
-            "dest": "/index.html"
-        },
-        {
             "src": "/",
             "dest": "/index.html"
-        }
-    ],
-    "rewrites": [
-        {
-            "source": "/(.*)",
-            "destination": "/index.html"
         }
     ]
 }
