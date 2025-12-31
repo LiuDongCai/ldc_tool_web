@@ -22,15 +22,17 @@
   <script src="https://www.gstatic.com/firebasejs/10.11.0/firebase-crashlytics-compat.js"></script>
 
   <script>
-    const firebaseConfig = {
-      apiKey: "AIzaSyAF71cwYZuzcvUtS0PVEIG8BMEEos32KDg",
-      authDomain: "ldctool.firebaseapp.com",
-      projectId: "ldctool",
-      storageBucket: "ldctool.firebasestorage.app",
-      messagingSenderId: "736161840056",
-      appId: "1:736161840056:web:a620613d4936eae22cad4d",
-      measurementId: "G-MVBKEWCCL2"
-    };
+    window.addEventListener('load', function (ev) {
+      firebase.initializeApp({
+        apiKey: "AIzaSyAF71cwYZuzcvUtS0PVEIG8BMEEos32KDg",
+        authDomain: "ldctool.firebaseapp.com",
+        projectId: "ldctool",
+        storageBucket: "ldctool.firebasestorage.app",
+        messagingSenderId: "736161840056",
+        appId: "1:736161840056:web:a620613d4936eae22cad4d",
+        measurementId: "G-MVBKEWCCL2"
+      });
+    });
   </script>
 
   <meta charset="UTF-8">
