@@ -4,9 +4,6 @@
     "builds": [],
     "routes": [
         {
-            "handle": "filesystem"
-        },
-        {
             "src": "/.*",
             "dest": "/index.html"
         }
@@ -33,6 +30,12 @@
                     "value": "/"
                 }
             ]
+        }
+    ],
+    "rewrites": [
+        {
+            "source": "/(.*)",
+            "destination": "/index.html"
         }
     ]
 }
